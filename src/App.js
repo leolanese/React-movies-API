@@ -11,7 +11,7 @@ function App() {
     results: [],
     selected: {}
   });
-  // Please, remember to create your own free key
+  // Please, remember to create your own free key: http://www.omdbapi.com/
   const request = "http://www.omdbapi.com/?apikey=67982c39";
   const search = e => {
     if (e.key === "Enter") {
