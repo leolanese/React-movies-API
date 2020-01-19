@@ -34,7 +34,7 @@ function App() {
     });
   };
 
-  const openPopup = id => {
+  const openMovie = id => {
     axios(request + "&i=" + id).then(({ data }) => {
       let result = data;
 
@@ -57,7 +57,7 @@ function App() {
       <main>
         <Search handleInput={handleInput} search={search} />
 
-        <Results results={state.results} openPopup={openPopup} />
+        <Results results={state.results} openMovie={openMovie} />
 
         {typeof state.selected.Title != "undefined" ? (
           <Movie selected={state.selected} closeMovie={closeMovie} />
