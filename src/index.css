@@ -108,8 +108,16 @@ section {
   max-width: 960px;
   margin: 0 auto;
   padding: 25px;
-
   color: #fff;
+}
+
+.no-movie {
+  font-size: 2em;
+  padding: 1em;
+  background: white;
+  margin-top: 3em;
+  margin-left: 6em;
+  border: 5px solid darkred;
 }
 
 .popup .content h2 {
