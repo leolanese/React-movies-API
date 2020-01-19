@@ -113,8 +113,8 @@ section {
 }
 
 .popup .content h2 {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 3em;
+  padding-bottom: 1em;
 }
 .popup .content h2 span {
   font-weight: 300;
